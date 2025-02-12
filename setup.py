@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='plotly_figure_tester',
-    packages=find_packages(include=['plotly_figure_tester']),
+    packages=find_packages(include=['plotly_figure_tester', 'assets']),
     version='0.1.0',
     description='Plotly Wrapper for Figure Testing',
     author='Rodrigo Vanzelotti',
