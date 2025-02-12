@@ -1,0 +1,23 @@
+[project]
+name = "plotly-figure-tester"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "rvanzelotti",email = "rodrigovanzelotti@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "setuptools (>=75.8.0,<76.0.0)",
+    "wheel (>=0.45.1,<0.46.0)",
+    "twine (>=6.1.0,<7.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "plotly (>=6.0.0,<7.0.0)",
+    "plotly[express] (>=6.0.0,<7.0.0)",
+    "dash (>=2.18.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
